@@ -5,9 +5,9 @@ from jose import jwt
 from datetime import datetime, timedelta, timezone
 from jose import JWTError
 
-import models, utils
-from auth_database import get_db
-from schemas import UserCreate, UserLogin
+from auth import models, utils
+from auth.auth_database import get_db
+from auth.schemas import UserCreate, UserLogin
 
 SECRET_KEY = "oRU0hAbmBs78EF1AHBfb500P3_vo7ETNXL49-SV7XIM"
 ALGORITHM = "HS256"
