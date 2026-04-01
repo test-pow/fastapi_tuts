@@ -27,10 +27,10 @@ services:
     ports:
       - "8000:8000"
     environment:
-      - MYSQL_HOST = db
-      - MYSQL_PORT = 3306
-      - MYSQL_USER = admin
-      - MYSQL_PASSWORD = Krish08021998
-      - MYSQL_DATABASE = fastapi_db
+      - MYSQL_HOST=db
+      - MYSQL_PORT=3306
+      - MYSQL_USER=admin
+      - MYSQL_PASSWORD=Krish08021998
+      - MYSQL_DATABASE=fastapi_db
 volumes:
   mysql_data:
